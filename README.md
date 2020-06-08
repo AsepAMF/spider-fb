@@ -10,9 +10,9 @@ $pip2 install requests
 $ls  
 $cd  spider-fb 
 $python2 spider-fb.py  
-Usernam: anak
+Usernam: Asep
 
-Pass: binjai
+Pass: AMF
 
 Download lisensi Scriptnya disini : https://tatawirdat.blogspot.com  
 
